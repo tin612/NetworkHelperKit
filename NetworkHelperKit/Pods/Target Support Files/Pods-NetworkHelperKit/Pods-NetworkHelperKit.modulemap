@@ -1,0 +1,6 @@
+framework module Pods_NetworkHelperKit {
+  umbrella header "Pods-NetworkHelperKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
