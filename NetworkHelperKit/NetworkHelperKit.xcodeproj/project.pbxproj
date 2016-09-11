@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D086BC519E13657C57084143 /* Pods_NetworkHelperKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA551B5B595316706EAF2E67 /* Pods_NetworkHelperKit.framework */; };
-		FD8CF2ED1D85D2CE00ADE615 /* NetworkHelperKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF2EC1D85D2CE00ADE615 /* NetworkHelperKit.swift */; };
 		FD8CF2F01D85D33C00ADE615 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF2EF1D85D33C00ADE615 /* BaseModel.swift */; };
 		FD8CF2F21D85D34800ADE615 /* BaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF2F11D85D34800ADE615 /* BaseErrorModel.swift */; };
+		FDDF80F01D85DD7F00EC0E03 /* NetworkHelperKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDF80EF1D85DD7F00EC0E03 /* NetworkHelperKit.swift */; };
 		FDF1FD8D1D85D1AB00DC7F73 /* NetworkHelperKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF1FD8C1D85D1AB00DC7F73 /* NetworkHelperKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -18,9 +18,9 @@
 		110460E45C954D8B7930D363 /* Pods-NetworkHelperKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkHelperKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkHelperKit/Pods-NetworkHelperKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5CA8B6EF56A658AC5F6D2548 /* Pods-NetworkHelperKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkHelperKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkHelperKit/Pods-NetworkHelperKit.release.xcconfig"; sourceTree = "<group>"; };
 		BA551B5B595316706EAF2E67 /* Pods_NetworkHelperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkHelperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD8CF2EC1D85D2CE00ADE615 /* NetworkHelperKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelperKit.swift; sourceTree = "<group>"; };
 		FD8CF2EF1D85D33C00ADE615 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		FD8CF2F11D85D34800ADE615 /* BaseErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseErrorModel.swift; sourceTree = "<group>"; };
+		FDDF80EF1D85DD7F00EC0E03 /* NetworkHelperKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelperKit.swift; sourceTree = SOURCE_ROOT; };
 		FDF1FD891D85D1AB00DC7F73 /* NetworkHelperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkHelperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF1FD8C1D85D1AB00DC7F73 /* NetworkHelperKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHelperKit.h; sourceTree = "<group>"; };
 		FDF1FD8E1D85D1AB00DC7F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 			children = (
 				FDF1FD8C1D85D1AB00DC7F73 /* NetworkHelperKit.h */,
 				FDF1FD8E1D85D1AB00DC7F73 /* Info.plist */,
-				FD8CF2EC1D85D2CE00ADE615 /* NetworkHelperKit.swift */,
+				FDDF80EF1D85DD7F00EC0E03 /* NetworkHelperKit.swift */,
 				FD8CF2EE1D85D32200ADE615 /* Models */,
 			);
 			path = NetworkHelperKit;
@@ -207,8 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDF80F01D85DD7F00EC0E03 /* NetworkHelperKit.swift in Sources */,
 				FD8CF2F01D85D33C00ADE615 /* BaseModel.swift in Sources */,
-				FD8CF2ED1D85D2CE00ADE615 /* NetworkHelperKit.swift in Sources */,
 				FD8CF2F21D85D34800ADE615 /* BaseErrorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

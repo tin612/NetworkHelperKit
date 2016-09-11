@@ -9,9 +9,13 @@
 import Foundation
 import Alamofire
 import Gloss
-public class NetworkHelperKit {
+public class NetworkHelperKit: NSObject {
     
     public let sharedInstance = NetworkHelperKit()
+    
+    public override init() {
+        super.init()
+    }
     
     public func getDataFromNetwork(urlString: String,parameter: [String: AnyObject]! = nil ,successBlock :(BaseModel?) -> () , failureBlock:(Int?, BaseErrorModel?)-> ()) {
         Alamofire.request(.GET, urlString, parameters: parameter ?? [:]).responseJSON { response in
