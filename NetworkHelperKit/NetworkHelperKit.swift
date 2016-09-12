@@ -11,7 +11,7 @@ import Alamofire
 import Gloss
 public class NetworkHelperKit: NSObject {
     
-    public let sharedInstance = NetworkHelperKit()
+    public static let sharedInstance = NetworkHelperKit()
     
     public override init() {
         super.init()
